@@ -7,24 +7,14 @@ Console.Write("Введите второе число: ");
 int b = int.Parse (Console.ReadLine()!);
 Console.Write("Введите второе число: ");
 int c = int.Parse (Console.ReadLine()!);
+int max = a;
 
-
-if (a > b)
+if (max < b)
 {
-    if (a > c)
-    {
-    Console.WriteLine("Максимальное первое число число");
-    }
-    else
-    {
-    Console.WriteLine("Максимальное третье число");
+    max = b;
+    if (max < c)
+    max = c;
+
+    Console.WriteLine("Максимальное число = " + max);
+}
     
-    }
-
-}
-
-{else if (b > c)
-    Console.WriteLine("Максимальное второе число");
-else 
-    Console.WriteLine("Максимальное третье число");
-}
