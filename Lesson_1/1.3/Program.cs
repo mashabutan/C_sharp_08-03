@@ -10,7 +10,7 @@ while (count != n)
     if (n < 0)
     {
         count--;
-    }
+    } 
     count++;
 
 
