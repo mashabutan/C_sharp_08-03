@@ -1,10 +1,10 @@
 ﻿// Напишите программу, которая принимает
 // на вход число и выдаёт количество цифр в числе.
-int num = GetUserNumber();
+int num = GetNumber();
 int digits = CountNumbers(num);
 Console.WriteLine(digits);
 
-int GetUserNumber()
+int GetNumber()
 {
 int number = 0;
 while(number == 0)
