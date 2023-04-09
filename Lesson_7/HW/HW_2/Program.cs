@@ -62,5 +62,5 @@ Console.Write("Enter the row position: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.Write("Enter the column position: ");
 int b = int.Parse(Console.ReadLine()!);
-
+int [,] arr= new int [a,b];
 FindElement(a, b);
